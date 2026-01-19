@@ -1,20 +1,35 @@
 {
+<<<<<<< HEAD
     "name": "Lyco-Launcher",
     "preductname": "Lyco Launcher",
     "version": "1.0.0",
     "description": "Launcher Minecraft Privée de Lyco",
+=======
+    "name": "Selvania-Launcher",
+    "preductname": "Selvania Launcher",
+    "version": "2.2.1",
+    "description": "Launcher Mincraft pour le serveur Selvania",
+>>>>>>> 07b7c13197448dad53f09d6e0f4fe08bbc3b985c
     "main": "src/app.js",
     "author": {
         "name": "Private Lyco",
         "email": "admin@lyco.social",
         "url": "https://github.com/wlyco"
     },
+<<<<<<< HEAD
     "url": "http://lyco.social/launcher/",
+=======
+    "url": "http://luuxcraft.fr/api/user/bb8f5247-1d38-41bb-ab6d-3200471a06b2",
+>>>>>>> 07b7c13197448dad53f09d6e0f4fe08bbc3b985c
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
+<<<<<<< HEAD
         "icon": "node build.js --icon=https://images-ext-1.discordapp.net/external/6gUkGskjOw-gpijKAKL8sq0Bxla65xic9N689-60gwM/https/cdn-longterm.mee6.xyz/plugins/reaction_roles/images/805220138550558740/43f730c497f2e2230abfac81dcc1ca0c6bbf764b7fb9571523a4b5b6bdcf7d1e.png"
+=======
+        "icon": "node build.js --icon"
+>>>>>>> 07b7c13197448dad53f09d6e0f4fe08bbc3b985c
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -22,19 +37,19 @@
         "ignore": "**/test"
     },
     "dependencies": {
-        "electron-updater": "^6.1.8",
-        "minecraft-java-core": "^4.1.4",
-        "node-bdd": "^2.0.4",
+        "electron-store": "^11.0.2",
+        "electron-updater": "^6.7.3",
+        "minecraft-java-core": "^4.2.5",
         "node-fetch": "^2.7.0",
         "xml-js": "^1.6.11"
     },
     "devDependencies": {
-        "cross-env": "^7.0.3",
-        "electron": "^30.5.1",
+        "cross-env": "^10.1.0",
+        "electron": "^40.0.0",
         "electron-builder": "^26.0.12",
-        "javascript-obfuscator": "^4.1.0",
-        "jimp": "^0.22.12",
-        "nodemon": "^3.1.2",
+        "javascript-obfuscator": "^5.1.0",
+        "jimp": "^1.6.0",
+        "nodemon": "^3.1.11",
         "png2icons": "^2.0.1"
     },
     "repository": {
