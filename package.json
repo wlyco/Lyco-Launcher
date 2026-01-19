@@ -1,7 +1,7 @@
 {
     "name": "Lyco-Launcher",
     "preductname": "Lyco Launcher",
-    "version": "2.2.2",
+    "version": "2.2.1",
     "description": "Launcher Minecraft Privée de Lyco",
     "main": "src/app.js",
     "author": {
