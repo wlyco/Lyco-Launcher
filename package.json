@@ -1,35 +1,20 @@
 {
-<<<<<<< HEAD
     "name": "Lyco-Launcher",
     "preductname": "Lyco Launcher",
-    "version": "1.0.0",
+    "version": "2.2.2",
     "description": "Launcher Minecraft Privée de Lyco",
-=======
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.2.1",
-    "description": "Launcher Mincraft pour le serveur Selvania",
->>>>>>> 07b7c13197448dad53f09d6e0f4fe08bbc3b985c
     "main": "src/app.js",
     "author": {
         "name": "Private Lyco",
         "email": "admin@lyco.social",
         "url": "https://github.com/wlyco"
     },
-<<<<<<< HEAD
     "url": "http://lyco.social/launcher/",
-=======
-    "url": "http://luuxcraft.fr/api/user/bb8f5247-1d38-41bb-ab6d-3200471a06b2",
->>>>>>> 07b7c13197448dad53f09d6e0f4fe08bbc3b985c
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-<<<<<<< HEAD
         "icon": "node build.js --icon=https://images-ext-1.discordapp.net/external/6gUkGskjOw-gpijKAKL8sq0Bxla65xic9N689-60gwM/https/cdn-longterm.mee6.xyz/plugins/reaction_roles/images/805220138550558740/43f730c497f2e2230abfac81dcc1ca0c6bbf764b7fb9571523a4b5b6bdcf7d1e.png"
-=======
-        "icon": "node build.js --icon"
->>>>>>> 07b7c13197448dad53f09d6e0f4fe08bbc3b985c
     },
     "license": "CCANC",
     "nodemonConfig": {
